@@ -43,7 +43,7 @@ SELECT * FROM staff
 WHERE first_name = "Mike";
 
 INSERT INTO rental(rental_date,inventory_id,customer_id,return_date,staff_id,last_update)
-VALUES(NOW(),1,130,DATE_ADD(NOW(), INTERVAL 15 DAY),1,"2006-02-15 04:57:20");
+VALUES(NOW(),1,130,DATE_ADD(NOW(), INTERVAL 3 DAY),1,"2006-02-15 04:57:20");
 
 /* Activity 2
 
